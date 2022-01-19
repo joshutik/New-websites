@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.d-top-fluid a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+  }
+  .why-us{
+    margin-top: 200px;
+  }
+  .btn-nav{
+    margin-left: 70px;
+  }
+  
+  
+  .navbar img{
+      height: 50px;
+      width: 100px;
+    }
+    .header {
+        position: relative;
+        background-color: black;
+        height: 150vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+      }
+  
+      .header:after{
+        content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(black, .2);
+    z-index: 1;
+      }
+
+      .header > video {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+  
+.header .container {
+        position: relative;
+        z-index: 2;
+        padding-bottom: 380px !important;
+  
+        
+      }
+
+        /* Media Query for devices withi coarse pointers and no hover functionality */
+    
+    /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+    
+    @media (pointer: coarse) and (hover: none) {
+        header {
+          background: url('./assets/Phatman\ WebDesign\ Video\ Background.mp4') black no-repeat center center scroll;
+        }
+      
+        header video {
+          /* display: none; */
+        }
+      }
+
+      .col button{
+        height: 80px;
+        width: 240px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        /* background-color: rgb(255, 140, 46) !important; */
+    }
+    .col button:hover{
+        color: white !important;
+    }
+    .col button:focus{
+        color: white !important;
+    }
+
+    h3 img{
+        width: 40px;
+        height: 20px;
+    }
+     .d-fluid{
+        padding-top: 150px;
+
+    }
